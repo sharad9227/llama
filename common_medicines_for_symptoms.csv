@@ -1,0 +1,11 @@
+Health Issue,Symptom,Common Medicines
+Cold,Runny Nose,"Antihistamines, Decongestants"
+Cold,Sore Throat,"Throat Lozenges, Pain Relievers"
+Cold,Cough,"Cough Syrup, Expectorants"
+Headache,Pain,"Acetaminophen, Ibuprofen, Aspirin"
+Allergy,Sneezing,"Antihistamines, Nasal Sprays"
+Fever,High Temperature,"Acetaminophen, Ibuprofen"
+Stomach Ache,Pain,"Antacids, Proton Pump Inhibitors"
+Muscle Pain,Soreness,"NSAIDs, Muscle Relaxants"
+Asthma,Wheezing,"Inhalers, Bronchodilators"
+Hypertension,High Blood Pressure,"Beta Blockers, ACE Inhibitors"

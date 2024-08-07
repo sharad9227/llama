@@ -1,14 +1,36 @@
-Let's walk through a high-level overview of the steps involved:
+Step1: Activate Your Virtual Environment
 
-Setup Environment: Ensure you have the necessary libraries and dependencies installed, including langchain, transformers, and datasets.
+- Ensure your virtual environment is activated:
+    source langchain_env/bin/activate
 
-Prepare Data: Load and preprocess your CSV file containing symptoms and solutions.
 
-Define Data Loaders: Use LangChain to define data loaders for your training and evaluation datasets.
+Step2: Install Required Libraries
+         pip install pandas langchain transformers sentence-transformers
+    
 
-Model Configuration: Configure and initialize the LLaMA model.
 
-Training Loop: Set up the training loop to fine-tune the LLaMA model on your data.
+Step:3 Load and Preprocess CSV Data
 
-Evaluation and Validation: Evaluate the model’s performance on the test dataset.
+        - Created a script to load the CSV data and compute embeddings:
 
+Step:4 Define Retrieval Function
+
+        - Implement a function to retrieve relevant information based on the query:
+
+Step:5 Load Hugging Face Generative Model
+
+        - Load a Hugging Face model for generating responses:
+
+Step:6 Combine Retrieval and Generation
+
+        - Integrate the retrieval and generative components into a single RAG system:
+
+
+Example Usage
+
+Demonstrate the system with an example query:
+
+
+query = "What should I take for a runny nose due to a cold?"
+response = rag_system(query)
+print(response)
